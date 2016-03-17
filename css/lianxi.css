@@ -52,7 +52,7 @@ ul {
 .container-fluid > .row:after {
   clear: both;
 }
-@media screen and (max-width: 730px) {
+@media screen and (max-width: 800px) {
   .container {
     width: 100%;
     margin: 0 auto;
@@ -394,7 +394,7 @@ ul {
     left: 100%;
   }
 }
-@media screen and (min-width: 730px) and (max-width: 1070px) {
+@media screen and (min-width: 800px) and (max-width: 1070px) {
   .container {
     width: 100%;
     margin: 0 auto;
