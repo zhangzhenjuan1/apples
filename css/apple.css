@@ -263,7 +263,7 @@ ul,li{
 .con{width:100%;line-height:30px;}
 /*.xuangou{width:100%;}*/
 
-@media screen and (min-width:730px){
+@media screen and (min-width:800px){
     .ff1{
         /*width:980px;*/
         width:100%;
