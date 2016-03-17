@@ -1,0 +1,353 @@
+.header{
+    height:44px;
+    background: #333;
+    line-height: 44px;
+    font-size: 14px;
+    color:white;
+}
+body{
+    font-family: "微软雅黑";
+}
+*{
+    box-sizing: border-box;
+}
+ul,li{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+.header-con{
+    width:1024px;
+    margin:0 auto;
+}
+.header1 a{
+    /*background:;*/
+    height:44px;
+    width:100%;
+    /*margin:0 auto;*/
+    text-align: center;
+}
+.header2{
+    display: none;
+}
+.text-l{
+    text-align: left;
+}
+.text-c{
+    text-align: center;
+}
+
+.ff1{
+    display:none;
+
+}
+.ff2{display:block}
+.ff2 .xuan{
+    font-size:14px;
+    padding-left: 20px;
+    line-height:40px;
+    border-bottom: 1px solid #e9e9e9;background:#F2F2F2;
+}
+.ff2 .xuan li{
+
+    font-size: 10px;
+    padding-left:20px;
+
+}
+.logo{
+    width:100%;
+    height:44px;
+    background: url(../img/logo.svg) no-repeat center;
+}
+.search{
+    width:100%;
+    height:44px;
+    background: url(../img/image_search.svg) no-repeat center;
+}
+.pack{
+    width:100%;
+    height:44px;
+    background:url(../img/image_pack.svg) no-repeat center;
+}
+.header2 .text-r{
+    text-align: right;
+}
+.menubtn{
+    font-size: 20px;
+    /*background: url(../img/);*/
+}
+.header2 .son{
+    display: none;
+    width:300%;
+    height:500px;
+    background: #333;
+
+}
+.header2 .son .son1{
+    display: block;
+    color:#fff;
+    margin:5px 0px;
+    margin-top:-10px;
+    line-height:48px;
+    border-bottom: 1px solid #eee;
+    z-index:100;
+    font-size:14px;
+}
+.text{
+    margin:0 auto;
+    text-align: center;
+}
+.text h1{
+    font-family: "微软雅黑";
+    font-weight: normal;
+    font-size: 30px;
+    text-align: center;
+    color:#333;
+}
+.text h2{
+    color:#333;
+    font-family: "微软雅黑";
+    font-weight: normal;
+    font-size: 18px;
+}
+.text h3{
+    font-family: "微软雅黑";
+    color:blue;
+    font-weight: normal;
+    font-size: 12px;
+    cursor: pointer;
+}
+.tu1,.tu2,.tu3,.tu4{
+    border:2px solid white;
+    border-right:none;
+    border-top:none;
+}
+.tu1{
+    background:url(../img/xia1.jpg);
+    height:200px;
+    background-size: cover;
+    background-position: center;
+    padding-right:1px;
+    /*height:200px;*/
+    /*border:1px solid black;*/
+}
+.tu2{
+    background:url(../img/xia2.jpg);
+    height:200px;
+    background-size: cover;
+    background-position: center;
+    /*border-right:1px solid white;*/
+    /*padding-right:1px;*/
+    /*height:200px;*/
+}
+.tu3{
+    background:url(../img/xia3.jpg);
+    height:200px;
+    background-size:cover;
+    background-position: center;
+}
+.tu4{
+    background:url(../img/xia4.jpg);
+    height:200px;
+    background-size:cover;
+    background-position: center;
+}
+
+.ff1 .row .div{
+    /*float:left;*/
+}
+.ff1 li{
+    line-height: 20px;
+    font-size: 10px;
+    color:rgb(102,102,102);
+}
+.ff1 .xuangou{
+    font-weight: bold;
+}
+.tleft{
+    text-align: center;
+}
+.ff1 ul{
+    display: none;
+}
+
+.ff1 .btn{
+    line-height: 38px;
+    color:#666;
+    font-size:10px;
+    float: right;
+}
+.ff1 .xuangou{
+    color:#666;
+    line-height: 38px;
+    font-size:10px;
+    float: left;
+}
+/*.ff2 .row{*/
+    /*line-height: 38px;*/
+/*}*/
+
+.banner{
+    width:100%;
+    height:350px;
+    position: relative;
+    cursor:pointer;
+    overflow: hidden;
+}
+.box{
+    width:500%;
+    height:100%;
+}
+.banner .list{
+    width:20%;
+    float:left;
+    height:100%;
+}
+.dian{
+    position:absolute;
+    width:150px;
+    height:20px;
+    bottom:0px;
+    margin:auto;
+    left:0;
+    right:0;
+}
+.dian li{
+    width:10px;
+    height:10px;
+    background: #ccc;
+    float: left;
+    margin:0 10px;
+    border-radius: 50%;
+    cursor:pointer;
+}
+.dian li:nth-child(1){
+    border:1px solid blue;
+    background: white;
+}
+.con .xuangou{
+    line-height: 38px;
+}
+.con li{
+    width:100%;
+    text-align: left;
+    line-height: 30px;
+}
+.bantu1{
+    background:url(../img/small1.png) no-repeat center;
+}
+.bantu2{
+    background:url(../img/small2.jpg) no-repeat center 120px;
+}
+.bantu3{
+     background:url(../img/small3.jpg) no-repeat center 150px;
+}
+.bantu4{
+    background:url(../img/small4.png) no-repeat center 150px;
+    /*background-size: auto ;*/
+}
+.ff{
+    width:80%;
+    /*border:1px solid #ccc;*/
+    margin:0 auto;
+    padding:30px 0 30px;
+    font-size: 10px;
+    color: #696969;
+}
+.ysxw li{float: left;line-height:20px;
+    border-right:1px solid #ccc;width:80px;text-align: center}
+.copyrigth,.ff1{
+    padding-left: 10px;
+    line-height:20px;
+}
+.con{width:100%;line-height:30px;}
+/*.xuangou{width:100%;}*/
+
+@media screen and (min-width:730px){
+    .ff1{
+        /*width:980px;*/
+        width:100%;
+        margin:0 auto;
+        display:block;
+    }
+    .ff2{display:none}
+    .banner{
+        height:610px;
+    }
+    .text h1{
+        font-size: 44px;
+
+    }
+    .text h2{
+        font-size: 18px;
+    }
+    .text h3{
+        font-size: 12px;
+    }
+    .bantu1{
+        background:url(../img/large1.png) no-repeat center -50px;
+    }
+    .bantu2{
+        background:url(../img/large2.jpg) no-repeat center 150px;
+    }
+    .bantu3{
+        background:url(../img/large3.jpg) no-repeat center 200px;
+    }
+    .bantu4{
+        background:url(../img/large4.png) no-repeat center 200px;
+        background-size: 768px 399px;
+        /*background-position: 0 0;*/
+    }
+    .con .xuangou{
+        width:100%;
+        /*text-align: center;*/
+    }
+    .con li{
+        text-align: center;
+        width:100%;
+        line-height: 20px;
+        /*margin-left: 20px;*/
+    }
+    .con .xuangou{
+        text-align: center;
+    }
+    .con1 li{
+        text-align: center;
+        /*margin-left: 50px;*/
+    }
+.ff{
+    width:70%;
+    /*border:1px solid #ccc;*/
+    margin:0 auto;
+    padding:30px 0 30px;
+    font-size: 12px;
+    color: #696969;
+}
+.ff .ff1{
+    width:100%;
+    border-bottom:1px solid #ccc;
+    padding:10px;
+    /*float: left;*/
+}
+.copyrigth{
+    float: left;
+    line-height: 20px;
+    margin-top:10px;
+    padding-left: 10px;
+}
+.ysxw ul{margin-left:70px;float: left;margin-top:10px;line-height:20px;}
+.ysxw li{float: left;line-height:20px;
+border-right:1px solid #ccc;width:80px;text-align: center}
+}
+.ysxw li:nth-child(4){border-right:none}
+.bei p{
+    margin:0;padding:0;
+}
+.bei{
+    padding-left:10px;
+    line-height: 30px;
+}
+.clear{clear:both}
+.about,.store{
+    text-align: center;
+}
